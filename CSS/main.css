@@ -10,27 +10,37 @@ html, body {
 
 .container {
     display: flex;
-    height: 100vh; /* Full height of the viewport */
+    height: 114vh; /* Full height of the viewport */
 }
 
 .left-panel {
-    width: 70%; /* Left panel occupies half of the screen */
-    background-color: #312923; /* Change to your desired color */
+    width: 80%; /* Left panel occupies half of the screen */
+    background-color: darkolivegreen; /* Change to your desired color */
     padding-top: 30px;
 }
 
 .right-panel {
-    width: 30%; /* Right panel occupies half of the screen */
-    background-image: url('../images/scrambled-eggs.jpg'); /* Replace with your image URL */
-    background-size: cover; /* Cover the entire area */
+    width: 20%; /* Right panel occupies half of the screen */
+    background-image: url('../images/Rskills.jpg'); /* Replace with your image URL */
+    background-size: contain; /* Cover the entire area */
     background-position: center; /* Center the image */
     padding-top: 30px;
+    background-color: darkolivegreen;
+}
+
+.right-panel2 {
+    width: 20%; /* Right panel occupies half of the screen */
+    background-image: url('../images/goat_cheese.png'); /* Replace with your image URL */
+    background-size: contain; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding-top: 30px;
+    background-color: darkolivegreen;
 }
 
 body {
     font-family: 'Arial', sans-serif;
     background-size: cover;
-    color: #fff;
+    color: ghostwhite;
     margin: 0;
     padding: 0px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
@@ -38,7 +48,7 @@ body {
 
 h1 {
     font-size: 3em;
-    color: #F9B317; /* Bright egg yolk color */
+    color: lightsteelblue; /* Bright egg yolk color */
     margin-bottom: 20px;
     text-transform: uppercase;
     padding-left: 60px;
@@ -51,6 +61,23 @@ h2 {
     margin-top: 30px;
     border-bottom: 2px solid #ffcc00;
     padding-bottom: 5px;
+
+}
+
+h3 {
+    font-size: 2em;
+    color: #ff9900; /* Slightly darker shade */
+    margin-top: 30px;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-size: 2em;
+    color: #ff9900; /* Slightly darker shade */
+    margin-top: 30px;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
 }
 
 p {
@@ -58,6 +85,8 @@ p {
     margin: 15px 0;
     padding-left: 60px;
     padding-top: 30px;
+    padding-right: 60px;
+    text-indent: 4em;
 }
 
 ul, ol {
@@ -109,14 +138,14 @@ footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9em;
-    color: #ffcc00;
+    color: darkred;
 }
 
 
 /* Menu */
 
 nav {
-    background-color: #312923; /* Menu background color */
+    background-color: saddlebrown; /* Menu background color */
     padding: 10px 0; /* Padding for the menu */
     position: fixed; /* Fixes the menu at the top */
     width: 100%; /* Full width */
